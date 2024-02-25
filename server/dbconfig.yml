@@ -1,0 +1,5 @@
+development:
+  dialect: postgres
+  datasource: host=127.0.0.1 port=5432 user=admin password=admin  dbname=dataentry sslmode=disable
+  dir: migrations/schemas
+  table: migrations

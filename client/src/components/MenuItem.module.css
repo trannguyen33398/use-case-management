@@ -1,0 +1,37 @@
+  .nav-item-container   {
+    border: 1px solid white;
+    border-radius: 15px;
+    /*background-color: #cad9d1;*/
+      background-color: #f0f1f6;
+    padding: 0.875rem 0 0.625rem 0.875rem;
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 3rem;
+
+    .nav-item-icon-container {
+        display: inline-block;
+        height: 1.5rem;
+        width: 3rem;
+        padding: 0.75rem 0;
+        background-color: #f1f2f4;
+        border-radius: 50%;
+    }
+
+    .nav-item-label-container {
+        display: inline-block;
+        margin-left: 1.25rem;
+        height: 1.5rem;
+        padding: 0.75rem 0;
+    
+        .nav-item-label {
+            font-weight: 600;
+        }
+    }
+
+      &:hover {
+          border-color: black;
+          cursor: pointer;
+      }
+}

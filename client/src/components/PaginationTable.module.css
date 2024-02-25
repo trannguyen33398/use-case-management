@@ -1,0 +1,24 @@
+.empty-table {
+    height: 200px;
+}
+
+.table-container {
+    width: 100%;
+}
+
+.pagination {
+    height: 100%;
+    width: 100%;
+    margin: 1% 0 0 0;
+    display: flex;
+    justify-content: right;
+}
+
+.header-column {
+    background-color: #e2e5e9;
+    border-right: 1px solid white !important;
+}
+
+.header-column-no-border {
+    background-color: #e2e5e9;
+}

@@ -1,0 +1,8 @@
+services:
+  app:
+    container_name: client
+    build: 
+     context: .
+    ports:
+      - "3000:80"
+    restart: always

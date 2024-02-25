@@ -1,0 +1,12 @@
+Step to start the project
+
+1. Start server
+- go to server folder
+- run command line if run first time to create database : make init
+- run command line : docker-compose up -d
+
+
+
+2. Start the client
+- go to client folder
+- run command line : docker-compose up -d
